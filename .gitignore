@@ -1,0 +1,47 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+
+# Dependency directories
+.env/
+.venv/
+*.egg
+pip-wheel-metadata/
+
+# Build directories
+build/
+dist/
+*.tar.gz
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Kubernetes-related files
+output/           # The directory where the YAML files are generated
+*.yaml            # If you want to exclude the generated YAML files from Git
+values.yaml       # If the values file is sensitive and you don't want it committed
+
+# Log files
+*.log
+
+# Coverage reports
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+
+# Test directories
+tests/__pycache__/

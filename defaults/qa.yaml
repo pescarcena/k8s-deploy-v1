@@ -1,0 +1,10 @@
+# Deployment
+replicas: 1
+
+# Service
+target_port: 8080
+service_port: 8080
+
+# Hpa
+min_replicas: 1
+max_replicas: 2
